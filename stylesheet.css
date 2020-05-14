@@ -11,28 +11,23 @@ body {
 }
 @media (min-width: 300px){
 	body {
-		font-size: 10px
+		font-size: 2em;
 	}
 }
 @media (min-width: 600px){
 	body {
-		font-size: 12px
+		font-size: 6px
 	}
 }
 @media (min-width: 800px){
 	body {
-		font-size: 14px
+		font-size: 8px
 	}
 }
 @media (min-width: 700px){
 	body {
-		font-size: 16px
+		font-size: 10px
 		
-	}
-}
-@media (min-width: 5000px){
-	body {
-		font-size: 26px;
 	}
 }
 header {
@@ -60,6 +55,7 @@ header {
 }
 a {
 	color: white;
+	font-family: 'Press Start 2P', cursive;
 	text-decoration: none;
 	font-size: 16px
 }
@@ -68,21 +64,35 @@ a:hover {
 	color: cornflowerblue;
 }
 .tres,
-.subtitulo,
-.titulo {
+.subtitulo {
 	color: white;
-	font-family: Arial;
+	line-height: 30px;
+	font-family: 'Press Start 2P', cursive;
 	text-align: center;
-}
-.tres{
-	font-style: italic;
+	font-size: 20px;
 }
 .portifolio{
 	color: white;
-	font-family: Arial;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+
+}
+.portifolio h2 {
+	text-align: center;
+	padding: 20px;
+	background: #021125;
 }
 .img-portfolio {
 	height: 180px;
 	width: 180px;
+	margin: 20px;
 }
+.titulo {
+	font-size: 26px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
 
